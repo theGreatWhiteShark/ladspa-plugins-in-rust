@@ -1,0 +1,16 @@
+*~
+#~
+/**/.Rhistory
+
+# Ignore the produced audio files.
+delay_snare_c.wav
+delay_snare_rust.wav
+
+# Ignore the compilation results
+c/delay_stereo.o
+c/delay_stereo.so
+rust/target/
+rust/Cargo.lock
+
+# Ignore the temporary and auxiliary files of Jupyter
+.ipynb_checkpoints
