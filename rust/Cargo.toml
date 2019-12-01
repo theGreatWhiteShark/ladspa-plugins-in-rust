@@ -1,0 +1,17 @@
+[package]
+name = "rust-delay-5s-stereo"
+version = "0.1.0"
+authors = ["theGreatWhiteShark <thetruephil@googlemail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+ladspa = "*"
+
+[lib]
+name = "rust_delay_5s_stereo"
+crate-type = ["dylib"]
+
+[profile.release]
+panic = 'abort'
